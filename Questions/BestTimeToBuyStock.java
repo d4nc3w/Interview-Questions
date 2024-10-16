@@ -19,6 +19,8 @@ class BestTimeToBuyStock {
         return max;
     }
 
+    //          [ Time complexity: O(N)] [ Space complexity: O(1) ]
+
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4};
         int solution = maxProfit(prices);

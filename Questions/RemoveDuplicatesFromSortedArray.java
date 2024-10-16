@@ -19,6 +19,8 @@ class RemoveDuplicateFromSortedArray{
         return j;
     }
 
+    //          [Time Complexity O(n)]
+
     public static void main(String[] args) {
         int[] nums = {1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 6, 6, 7};
         int solution = removeDuplicates(nums);
