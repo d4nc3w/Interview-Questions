@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "Questions.PlusOne",
+            "projectName": "Interview-Questions_53b37ad0"
+        },
+        {
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
