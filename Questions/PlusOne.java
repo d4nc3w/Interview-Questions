@@ -18,6 +18,8 @@ public class PlusOne {
         return digits;
     }
 
+    //      Time Complexity: O(n)   Space Complexity: O(n)
+
     public static void main(String[] args) {
        int[] digits = {1,2,9};
        int[] solution = plusOne(digits);
