@@ -16,6 +16,8 @@ public class TwoSum {
         return new int[]{};
     }
 
+    //  Time Complexity: O(n)   Space Complexity: O(n)
+
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
         int[] result = twoSum(nums, 9);
