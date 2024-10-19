@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Array;
 
 public class MoveZeroes {
     public static int[] moveZeroes(int[] nums) {

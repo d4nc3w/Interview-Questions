@@ -2,7 +2,7 @@
 //The digits are ordered from most significant to least significant in left-to-right order. 
 //The large integer does not contain any leading 0's.
 
-package Questions;
+package Questions.Array;
 
 public class PlusOne {
     public static int[] plusOne(int[] digits) {

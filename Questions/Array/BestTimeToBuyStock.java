@@ -3,7 +3,7 @@
 // However, you can buy it then immediately sell it on the same day.
 // Find and return the maximum profit you can achieve.
 
-package Questions;
+package Questions.Array;
 
 class BestTimeToBuyStock {
     public static int maxProfit(int[] prices) {
