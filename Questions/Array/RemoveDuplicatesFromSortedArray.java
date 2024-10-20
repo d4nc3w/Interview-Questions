@@ -5,7 +5,7 @@
 // The remaining elements of nums are not important as well as the size of nums.
 // Return k.
 
-package Questions;
+package Questions.Array;
 
 class RemoveDuplicateFromSortedArray{
     public static int removeDuplicates(int[] nums){
