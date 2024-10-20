@@ -9,7 +9,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ValidSudoku {
+    @SuppressWarnings("unchecked")
     public static boolean isValidSudoku(char[][] board) {
+        @SuppressWarnings("rawtypes")
         Set seen = new HashSet();
         for(int i = 0; i < 9; ++i){
             for(int j = 0; j < 9; ++j){

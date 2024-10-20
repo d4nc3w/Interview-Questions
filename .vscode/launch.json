@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ValidPalindrome",
+            "request": "launch",
+            "mainClass": "Questions.String.ValidPalindrome",
+            "projectName": "Interview-Questions_53b37ad0"
+        },
+        {
+            "type": "java",
             "name": "ValidAnagram",
             "request": "launch",
             "mainClass": "Questions.String.ValidAnagram",
