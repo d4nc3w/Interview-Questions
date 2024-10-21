@@ -5,14 +5,15 @@ public class ValidPalindrome {
         int start = 0;
         int last = s.length() - 1;
         while(start <= last){
-            char f = s.charAt(start);
-            char l = s.charAt(last);
-            if(!Character.isLetterOrDigit(f)){
+            char currentS = s.charAt(start);
+            char currentL = s.charAt(last);
+            
+            if(!Character.isLetterOrDigit(currentS)){
                 start++;
-            } else if(!Character.isLetterOrDigit(l)){
+            } else if(!Character.isLetterOrDigit(currentL)){
                 last--;
             } else {
-                if(Character.toLowerCase(f) != Character.toLowerCase(l)){
+                if(Character.toLowerCase(currentS) != Character.toLowerCase(currentL)){
                     return false;
                 }
                 start++;
@@ -21,6 +22,7 @@ public class ValidPalindrome {
         }
         return true;
     }
+    
 
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
